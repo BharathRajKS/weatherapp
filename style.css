@@ -1,0 +1,118 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body {
+    width: 98%;
+    height: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(pexels-johannes-plenio-1118873.jpg);
+    background-size: 100% 100%;
+
+
+}
+.allpage {
+    width: 25%;
+    height: 70%;
+    background: aquamarine;
+    border-radius: 1em;
+
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.top_all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    gap: 2em;
+
+}
+.top {
+    width:50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top_btn {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div_1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    /* margin-top: -4em; */
+
+}
+.div_2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+.maincontainer {
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    border-radius: 1em;
+    /* background-image: url(pexels-johannes-plenio-1118873.jpg);
+    background-size: 100% 100%; */
+    color: rgb(255, 204, 129);
+
+}
+.temp {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.temp_city {
+    width: 100%;
+    height: 37%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hum {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.win {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1#temperature {
+    margin: 0;
+    font-size: xx-large;
+}
+h1#cityname {
+    margin: 0;
+    font-size: xx-large;
+}
